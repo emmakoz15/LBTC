@@ -1,0 +1,46 @@
+.bgcolor {
+    background: #7F5539;
+}
+
+.about{
+    background: #D5BDaf;
+}
+
+
+  
+
+/* nav styling */
+.navbar{
+    background-color: #7F5539;
+}
+  
+  img {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+  }
+  
+
+
+
+  .navbar-menu a {
+    color: #283618;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #D5BDaf;
+    color: #000;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,.05);
+  }
+
+  /* nav styling */
