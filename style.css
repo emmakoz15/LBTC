@@ -1,5 +1,5 @@
 .bgcolor {
-    background: #7F5539;
+    background: #f5ebe0;
 }
 
 .about{
@@ -11,10 +11,10 @@
 
 /* nav styling */
 .navbar{
-    background-color: #7F5539;
+    background-color: #f5ebe0;
 }
   
-  img {
+  .imglogo {
     width: 60px;
     height: 60px;
     padding-top: 10px;
@@ -24,7 +24,7 @@
 
 
   .navbar-menu a {
-    color: #283618;
+    color: black;
     font-size: 13px;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -36,6 +36,9 @@
     transition: 0.4s;
 
   }
+
+  
+  
   
   .navbar-menu a:hover {
     background-color: #D5BDaf;

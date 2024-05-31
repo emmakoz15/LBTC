@@ -24,16 +24,17 @@
         <header>
             <!-- place navbar and logo here --> 
             
-                <nav class="navbar">
-                    <div class="container">
-                      <img src="imgs/logo.gif">
-                      <div class="navbar-menu">
+                <nav class="navbar ">
+                    <div class="">
+                      <img class = "imglogo"src="imgs/logo.gif">
+                     </div>
+                      <div class="navbar-menu  ">
                         <a href="">About</a>
                         <a href="">Products</a>
                         <a href="">Order Form</a>
-                        <a href="">Reviews</a>
+                        <a href="">Review</a>
                       </div>
-                    </div>
+                   
                 </nav>
         </header>
 
@@ -42,13 +43,13 @@
 
         <main>
              <!--about portion-->
-            <div class=" about">
-                <div class="row justify-content-center">
-            <div class="col-12 text-center heroimg">
-                img
+          
+                <div class="row text-center g-2 rounded m-3 about justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 text-center heroimg">
+                <img class= "img-fluid hero " src ='imgs/hero.png'>
             </div>
-            <hr>
-            <div class="col-12 col-md-6 border ">
+            
+            <div class="col-12 col-sm-12 col-md-6 p-3    ">
                 Abo
             </div>
 
@@ -56,18 +57,14 @@
         </div>
       
 
+<div class="row m-3 rounded about justify-content-center">
 
-
-
-<hr> 
-<div class="row justify-content-center">
-
-<div class="col-12 col-md-6 col-sm-6 border">
+<div class="col-12 col-sm-12 col-md-6 p-3  text-center">
     Abo
 </div>
 </div>
 
-</div>
+
 
     
  <!--end of about portion-->
@@ -188,7 +185,30 @@
     <label class="form-label" for="form6Example6">Phone</label>
   </div>
 
+ <!-- product -->
+ <div data-mdb-input-init class="form-outline mb-4">
+  <input type="text" id="form6Example6" class="form-control" />
+  <label class="form-label" for="form6Example6"> Product Name</label>
+</div>
 
+
+<!---->
+<div class="input-group mb-3">
+  <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">Quantity</button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" >1</a></li>
+    <li><a class="dropdown-item" >2</a></li>
+    <li><a class="dropdown-item" >3</a></li>
+    <li><a class="dropdown-item" >4</a></li>
+    <li><a class="dropdown-item" >5</a></li>
+    <li><a class="dropdown-item" >6</a></li>
+    <li><a class="dropdown-item" >7</a></li>
+    <li><a class="dropdown-item" >8</a></li>
+    <li><a class="dropdown-item" >9</a></li>
+    <li><a class="dropdown-item" >10</a></li>
+    
+  </ul>
+</div>
 
   <!-- Checkbox -->
   <div class="form-check d-flex justify-content-center mb-4">
@@ -220,9 +240,130 @@
 </div> <!--end main container for background color-->
 
 
-        <footer>
-            <!-- place footer here -->
-        </footer>
+
+            <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: #d5bdaf;>
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span></span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: #d5bdaf;">
+   <!-- © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+-->
+</footer>
+<!-- Footer -->
+       
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
