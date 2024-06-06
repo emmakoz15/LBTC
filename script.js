@@ -2,42 +2,42 @@
 
 const products = [
   {
-    name: "Block",
+    name: "Blocks",
     rating: "5",
     price: "10",
-    images: ["images/block1.jpg","images/block2.jpg","images/block3.jpg",],
+    images: ["images/block1.jpg","images/block4.jpg","images/block5.jpg",],
     id: "toy1"
   },
   {
     name: "Plane",
     rating: "5",
     price: "10",
-    images: ["images/plane1.jpg","images/plane2.jpg","images/plane3.jpg",], 
+    images: ["images/plane3.jpg","images/plane1.jpg","images/plane2.jpg"], 
     id: "toy2" },
   {
-    name: "toy",
+    name: "Car",
     rating: "5",
     price: "10",
-    images: ["images/","images/","images/",], 
+    images: ["images/car2.jpg","images/car3.jpg","images/car1.jpg",], 
     id: "toy3" },
   {
-    name: "toy",
+    name: "Boat",
     rating: "5",
     price: "10",
-    images: ["images/","images/","images/",], 
+    images: ["images/boat3.jpg","images/boat1.jpg","images/boat2.jpg",], 
     id: "toy4" },
   {
-    name: "toy",
+    name: "Train 1",
     rating: "5",
     price: "10",
-    images: ["images/","images/","images/",], 
+    images: ["images/train5.jpg","images/train2.jpg","images/train3.jpg",], 
     id: "toy5"
  },
   {
-    name: "toy",
+    name: "Train 2",
     rating: "5",
     price: "10",
-    images: ["images/","images/","images/",],
+    images: ["images/train7.jpg","images/train1.jpg","images/train6.jpg"],
     id: "toy6"  },
     
 ];
@@ -142,7 +142,14 @@ function backToTop() {
 
 //show quantity
 
-
+// For illustration purposes only
+// Use JS to adjust the width attribute of the .value rectangle element.
+TweenMax.to(".value", 2, {
+  attr:{width: 0},
+  yoyo: true,
+  ease:Quint.easeInOut,
+  repeat: -1
+});
 
 
 
